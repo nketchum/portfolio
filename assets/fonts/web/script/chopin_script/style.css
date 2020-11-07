@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "ChopinScript";
+  src: url("./fonts/Chopinscript-gxXE.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Chopinscript-gxXE.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Chopinscript-gxXE.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Chopinscript-gxXE.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Chopinscript-gxXE.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Chopinscript-gxXE.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Chopinscript-gxXE.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

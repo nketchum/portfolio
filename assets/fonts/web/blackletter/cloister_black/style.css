@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CloisterBlack-Light";
+  src: url("./fonts/CloisterBlackLight-axjg.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/CloisterBlackLight-axjg.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/CloisterBlackLight-axjg.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/CloisterBlackLight-axjg.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/CloisterBlackLight-axjg.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/CloisterBlackLight-axjg.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CloisterBlackLight-axjg.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "XIPAROS";
+  src: url("./fonts/Xiparos-aw9x.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Xiparos-aw9x.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Xiparos-aw9x.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Xiparos-aw9x.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Xiparos-aw9x.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Xiparos-aw9x.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Xiparos-aw9x.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

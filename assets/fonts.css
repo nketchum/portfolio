@@ -1,0 +1,98 @@
+/* Roman */
+.luca_pacioli_rough {
+  font-family: LucaPacioliRough;
+  font-size: 0.85em;
+  line-height: 1.5em;
+}
+.roman_caps {
+  font-family: RomanCaps;
+  font-size: 1em;
+  line-height: 1.25em;
+  word-spacing: -0.25em;
+}
+.trajanus_roman {
+  font-family: TrajanusRoman;
+  font-size: 1em;
+  line-height: 1.25em;
+  word-spacing: -0.45em;
+}
+
+/* Miniscule */
+.pfeffer_mediaeval {
+  font-family: PfefferMediaeval;
+  font-size: 0.95em;
+  line-height: 0.95em;
+}
+.romeodn {
+  font-family: Romeodn;
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+.xiparos {
+  font-family: XIPAROS;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+/* Blackletter */
+.black_window {
+  font-family: BlackWindow;
+  font-size: 1.25em;
+  line-height: 1em;
+}
+.cloister_black {
+  font-family: CloisterBlack-Light;
+  font-size: 1em;
+  line-height: 1em;
+}
+.koch_black {
+  font-family: kochblack;
+  font-size: 1.15em;
+  line-height: 1.15em;
+}
+.middle_ages {
+  font-family: MiddleAgesPERSONALUSE;
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+
+/* Courthand */
+.tychos_elegy {
+  font-family: TychosElegy;
+  line-height: 1em;
+}
+.tychos_recipe {
+  font-family: TychosRecipe;
+  line-height: 1em;
+}
+.wir_wenzlaw {
+  font-family: WirWenzlaw;
+  line-height: 1em;
+}
+
+/* Script */
+.chopin_script {
+  font-family: ChopinScript;
+  font-size: 1em;
+  line-height: 1em;
+}
+.marchell {
+  font-family: Marchell;
+  font-size: 0.65em;
+  line-height: 0.65em;
+}
+.mysterious_elegance {
+  font-family: MysteriousElegance;
+  font-size: 1.75em;
+  line-height: 1em;
+}
+.spencerian_script {
+  font-family: SpencerianScriptSW-Regular;
+  font-size: 1.1em;
+  line-height: 1.1em;
+}
+.zailtalic {
+  font-family: zaiItalicHandCalligraphy;
+  font-size: 0.75em;
+  line-height: 0.75em;
+}

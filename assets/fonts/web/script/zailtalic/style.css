@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "zaiItalicHandCalligraphy";
+  src: url("./fonts/ZaiItalicHandCalligraphy-ALRX2.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/ZaiItalicHandCalligraphy-ALRX2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/ZaiItalicHandCalligraphy-ALRX2.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/ZaiItalicHandCalligraphy-ALRX2.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/ZaiItalicHandCalligraphy-ALRX2.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/ZaiItalicHandCalligraphy-ALRX2.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/ZaiItalicHandCalligraphy-ALRX2.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

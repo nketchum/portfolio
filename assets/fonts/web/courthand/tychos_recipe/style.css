@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "TychosRecipe";
+  src: url("./fonts/Tychosrecipe-RLnE.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Tychosrecipe-RLnE.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Tychosrecipe-RLnE.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Tychosrecipe-RLnE.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Tychosrecipe-RLnE.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Tychosrecipe-RLnE.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Tychosrecipe-RLnE.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

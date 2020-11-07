@@ -1,0 +1,39 @@
+
+WirWenzlaw (UNICODE)
+___________________________________________
+
+... was created by Pia Frauss in 2003, with High-Logic's FontCreator program, updated in 2005, 2007,  and 2010, and set to UNICODE in 2007. You have downloaded version 1.30 (completed in 2010). I hope you'll enjoy this font.
+
+WirWenzlaw is free for private use. For commercial use, please visit my "Conditions of Use" page at
+
+http://www.pia-frauss.de/imp/cu.htm
+
+This is a genuine Bastarda, written at Prague in the year 1400, at the chancery of one Wenzlaw, who was king of Bohemia and Roman king. The font is called after the first two words of that document, saying -- in German -- "We Wenzlaw..."
+
+There is no number sign in this font. In its place, you'll find a *long s*. Equally, you'll find an alternate *d* on the bar sign; and the right and left bracket keys contain a double *p* and an alternate *v*. Update 2007 has provided a 'normal' *n* on the underscore, and the *long s* sign in this font will show up as a double *long s*.
+
+UPDATE 2007 has, moreover, reduced the file size, by redesigning the composite glyphs, has tried to embellish the figures and the *m*, has corrected the *L/ldot*, and has moved the brackets: the left one to the fi sign, the masculine ordinal indicator, and the 'less-than or equal to' sign, the right one to the fl sign, the feminine ordinal indicator, and the 'greater-than or equal to' sign.
+
+UPDATE 2010 has redesigned all of the composite glyphs (correcting the *dcaron*, *L/lcaron*, and *tcaron*), and enlarged the dashes.
+
+
+_________________________________
+
+
+Disclaimer:
+
+1. The designer as well as owner of this font is Pia Frauss.
+
+2. This is a free font, but it is restricted to personal use only. Commercial use may be obtained by paying a licensing fee.
+
+3. This font may not be included in any commercial compilation of fonts, be it on CD, disks or other products, without the owner's permission.
+
+4. Altogether, this font may not be used for commercial ends and financial gain without the owner's permission.
+
+5. This font may be freely distributed, as long as the zipfile, including this text, remains unaltered.
+
+6. This font comes as it is. There is no warranty -- express or implied -- offered by the owner, or supplier. The risk of any losses or damages resulting from the use of this font remains wth the user.
+
+If you need any information not supplied by this or by the http://www.pia-frauss.de/ website, please write to fonts @ pia-frauss.de (please remove the spaces around the *@* before copying the address into your mail form).
+
+(However, please note that no enquiries such as "how do I download/install/get such and such program to work with your fonts" will be answered in the future.)
