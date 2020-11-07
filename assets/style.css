@@ -75,6 +75,13 @@ hr {
   top: 0;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .skip a {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
 header,
 nav ul,
 main,
