@@ -163,15 +163,21 @@ nav a:hover {
   max-width: 100%;
 }
 
+@media only screen and (max-width: 800px) {
+  .logo img {
+    width: 300px;
+  }
+}
+
 .slogan {
   color: #666666;
   font-size: 1.25em;
   line-height: 1em;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .slogan {
-    font-size: 1em;
+    font-size: 0.85em;
   }
 }
 
@@ -199,6 +205,14 @@ nav a:hover {
   padding: 5px 15px 5px 35px;
   text-transform: uppercase;
   background-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  #fb-share a {
+    font-size: 0.65em;
+    padding: 2px 15px 5px 35px;
+    background-size: 15px;
+  }
 }
 
 #hero {
@@ -250,12 +264,14 @@ nav a:hover {
 }
 
 .gallery {
+  display: flex;
+  flex-direction: column;
   margin: -15px;
 }
 
 @media only screen and (min-width: 501px) {
   .gallery {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 }
@@ -425,7 +441,7 @@ nav a:hover {
 
 @media only screen and (max-width: 800px) {
   .type .variants {
-    display: block;
+    flex-direction: column;
   }
 }
 
@@ -699,6 +715,7 @@ footer .slogan {
 /* Language select */
 .goog-te-gadget {
   height: 19px;
+  margin-top: -11px;
   visibility: hidden;
 }
 .goog-te-gadget > div {
