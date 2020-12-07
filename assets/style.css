@@ -217,6 +217,7 @@ nav a:hover {
 
 #hero {
   align-items: center;
+  background-attachment: fixed;
   background-color: #333333;
   background-image: url('./images/hero-front.png');
   background-position: center;
@@ -397,8 +398,8 @@ nav a:hover {
 }
 
 .title {
-  background: #cc0000;
-  color: #ffffff;
+  border: solid 4px #cc0000;
+  color: #cc0000;
   display: inline-block;
   letter-spacing: 0.05em;
   margin: 60px 0;
@@ -412,10 +413,6 @@ nav a:hover {
     margin: 30px 0;
     padding: 3px 10px 5px;
   }
-}
-
-.title .page-type {
-  font-weight: 100;
 }
 
 .title .page-type-label {
@@ -475,6 +472,7 @@ nav a:hover {
 main {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -520,7 +518,7 @@ main.page .gallery {
 .downloads {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto 1fr;
   grid-column: 1 / span 3;
   column-gap: 50px;
   margin-top: 50px;
@@ -553,6 +551,11 @@ main.page .gallery {
 .downloads .description-text {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
+}
+
+.downloads .downloads-test-sample {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
 }
 
 @media only screen and (max-width: 800px) {
@@ -589,7 +592,7 @@ main.page .gallery {
 .downloads .downloads-list-items {
   background: #ffffff;
   grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
+  grid-row: 3 / span 1;
 }
 
 .downloads .downloads-list-items .downloads-list-item {
@@ -653,10 +656,53 @@ main.page .gallery {
   grid-column: 2 / span 1;
 }
 
-.page-basic .body-text .title {
+.page-basic .body-form {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.page-basic .body-text .title,
+.page-basic .body-form .title {
   display: table;
   margin-left: auto;
   margin-right: auto;
+}
+
+.page-basic .body-form form {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.page-basic .body-form form input:nth-child(1) {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.page-basic .body-form form input:nth-child(2) {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.page-basic .body-form form input:nth-child(3) {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.page-basic .body-form form input:nth-child(4) {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.page-basic .body-form form textarea {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+}
+
+.page-basic .body-form form .btn {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 1;
 }
 
 .page-gallery .gallery {
@@ -758,7 +804,76 @@ footer .slogan {
   }
 }
 
+/* Flip card */
+.flip-card {
+  height: 480px;
+  margin: 60px auto;
+  overflow: hidden;
+  perspective: 1000px;
+  width: 420px;
+}
+
+.flip-card-inner {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  width: 100%;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.flip-card-front {
+  background-color: #cc0000;
+  color: black;
+}
+
+.flip-card-front img {
+  object-fit: cover;
+  width: 420px;
+  height: 480px;
+}
+
+.flip-card-back {
+  background-color: #cc0000;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back-content {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .flip-card {
+    width: 260px;
+  }
+
+  .flip-card-front img {
+    width: 260px;
+  }
+}
+
 /* Hide by default */
 .hidden {
   display: none !important;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
