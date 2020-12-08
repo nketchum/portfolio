@@ -948,3 +948,9 @@ footer .slogan {
     transform: none;
   }
 }
+
+.tinytiny {
+  font-size: 0;
+  width: 0;
+  height: 0;
+}

@@ -112,13 +112,18 @@
         </section>
         <section class="body-form">
             <h1 class="title">Contact</h1>
-            <form action="https://formspree.io/f/moqpkvro" method="POST" name="contact">
-                <input type="text" size="20" class="textfield name name-first" name="first_name" placeholder="First Name">
-                <input type="text" size="20" class="textfield name name-last" name="last_name" placeholder="Last Name">
-                <input type="text" size="20" class="textfield email" name="email" placeholder="Email">
-                <input type="text" size="20" class="textfield phone" name="phone" placeholder="Phone">
-                <textarea cols="12" rows="12" class="textarea message" name="message" placeholder="Type a message..."></textarea>
-                <button type="submit" form="contact" value="Submit" class="btn btn-default grow">Send</button>
+            <form action="https://formspree.io/f/moqpkvro" method="POST">
+                <label for="input_first_name" class="tinytiny">First Name</label>
+                <input type="text" size="20" id="input_first_name" class="textfield name name-first" name="first_name" placeholder="First Name">
+                <label for="input_last_name" class="tinytiny">Last Name</label>
+                <input type="text" size="20" id="input_last_name" class="textfield name name-last" name="last_name" placeholder="Last Name">
+                <label for="input_email" class="tinytiny">Email</label>
+                <input type="email" size="20" id="input_email" class="textfield email" name="email" placeholder="Email">
+                <label for="input_phone" class="tinytiny">Phone</label>
+                <input type="text" size="20" id="input_phone" class="textfield phone" name="phone" placeholder="Phone">
+                <label for="input_message" class="tinytiny">Message</label>
+                <textarea cols="12" rows="12" id="input_message" class="textarea message" name="message" placeholder="Type a message..."></textarea>
+                <button type="submit" value="Submit" class="btn btn-default grow">Send</button>
             </form>
         </section>
     </main>
