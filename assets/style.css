@@ -391,6 +391,11 @@ nav a:hover {
   border-color: #000000;
 }
 
+.nav-primary ul li a:hover {
+  color: #aaa;
+  border-color: #aaa;
+}
+
 .page-header {
   text-align: center;
   grid-column: 1 / span 3;
