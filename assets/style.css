@@ -698,6 +698,18 @@ main.page .gallery {
   grid-template-rows: auto auto auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .page-basic .body-form form,
+  .page-basic .body-form form input,
+  .page-basic .body-form form textarea,
+  .page-basic .body-form form button {
+    display: block;
+    margin: 0 !important;
+    width: 238px;
+    margin-bottom: 10px !important;
+  }
+}
+
 .downloads-test-sample input,
 .page-basic .body-form form input,
 .page-basic .body-form form textarea,
@@ -776,12 +788,12 @@ footer .branding {
 }
 
 footer .logo img {
-  width: 350px;
+  width: 200px;
 }
 
 footer .slogan {
   color: #ccc;
-  font-size: 1em;
+  font-size: 0.75em;
   line-height: 1em;
 }
 
