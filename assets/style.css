@@ -496,10 +496,16 @@ main.page .description {
   margin: 30px 0 45px;
 }
 
+main.page .description.description-period,
+main.page .description.description-region {
+  margin-top: -15px;
+}
+
 @media only screen and (max-width: 800px) {
   main.page .description {
     grid-column: 1 / span 3;
     padding: 15px 0 15px;
+    margin: 0 25px;
   }
 }
 
@@ -558,11 +564,28 @@ main.page .gallery {
   grid-row: 2 / span 1;
 }
 
+@media only screen and (min-width: 801px) {
+  .downloads .downloads-test-sample {
+    border: 1px solid #999;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .downloads .downloads-test-sample h2 {
+    margin-top: 0;
+  }
+}
+
 @media only screen and (max-width: 800px) {
-  .downloads .description-text {
+  .downloads .description-text,
+  .downloads .downloads-test-sample {
     text-align: center;
     margin-top: 3em;
     margin-bottom: 3em;
+  }
+
+  .downloads .downloads-test-sample input {
+    width: 268px;
   }
 }
 
@@ -673,6 +696,32 @@ main.page .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
+}
+
+.downloads-test-sample input,
+.page-basic .body-form form input,
+.page-basic .body-form form textarea,
+.page-basic .body-form form button {
+  border-radius: 0;
+  border: 1px solid #999;
+  font-family: inherit;
+  padding: 10px;
+  margin: 5px;
+}
+
+.downloads-test-sample input {
+  margin-left: 0;
+  width: 300px;
+}
+
+.page-basic .body-form form button {
+  background-color: #cc0000;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  margin: 5px auto;
+  text-transform: uppercase;
+  width: 100px;
 }
 
 .page-basic .body-form form input:nth-child(1) {
@@ -805,15 +854,15 @@ footer .slogan {
 }
 
 /* Flip card */
-.flip-card {
+.flip {
   height: 480px;
-  margin: 60px auto;
+  margin: 60px auto 0;
   overflow: hidden;
   perspective: 1000px;
   width: 420px;
 }
 
-.flip-card-inner {
+.flip-inner {
   height: 100%;
   position: relative;
   text-align: center;
@@ -822,11 +871,11 @@ footer .slogan {
   width: 100%;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip:hover .flip-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-front, .flip-back {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   height: 100%;
@@ -834,33 +883,33 @@ footer .slogan {
   width: 100%;
 }
 
-.flip-card-front {
+.flip-front {
   background-color: #cc0000;
   color: black;
 }
 
-.flip-card-front img {
+.flip-front img {
   object-fit: cover;
   width: 420px;
   height: 480px;
 }
 
-.flip-card-back {
+.flip-back {
   background-color: #cc0000;
   color: white;
   transform: rotateY(180deg);
 }
 
-.flip-card-back-content {
+.flip-back-content {
   padding: 30px;
 }
 
 @media only screen and (max-width: 500px) {
-  .flip-card {
+  .flip {
     width: 260px;
   }
 
-  .flip-card-front img {
+  .flip-front img {
     width: 260px;
   }
 }
@@ -876,4 +925,14 @@ footer .slogan {
 
 .grow:hover {
   transform: scale(1.1);
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .grow {
+    transition: none;
+  }
+
+  .grow:hover {
+    transform: none;
+  }
 }
