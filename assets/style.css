@@ -241,6 +241,11 @@ nav a:hover {
   text-align: center;
 }
 
+.hero-text h1,
+.hero-text p {
+  text-shadow: 0 0 50px black;
+}
+
 @media only screen and (max-width: 800px) {
   .hero-text {
     font-size: 0.75em;
@@ -426,6 +431,12 @@ nav a:hover {
   padding-bottom: 90px;
 }
 
+@media only screen and (max-width: 800px) {
+  .type {
+    padding-bottom: 45px;
+  }
+}
+
 .type:last-child {
   border-bottom: none;
   margin-bottom: 0;
@@ -436,7 +447,7 @@ nav a:hover {
   display: flex;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   .type .variants {
     flex-direction: column;
   }
@@ -448,6 +459,18 @@ nav a:hover {
   margin-bottom: 25px;
   text-align: center;
   padding: 50px 25px;
+}
+
+@media only screen and (max-width: 800px) {
+  .type .variants .variant {
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .type .variants .variant {
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (min-width: 801px) {
